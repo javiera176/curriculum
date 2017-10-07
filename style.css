@@ -1,1 +1,236 @@
-p{}
+* {
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+body { 
+	background-color: #ededed;
+	position: relative;
+	margin: 0; 
+}
+
+.fondo{ 
+	background-color: white;
+	margin: 170px 100px; 
+	height: 1100px;
+}
+
+.top img{
+	border-radius: 50%;
+	margin-left: 40%;
+	width: 20%;
+	position: relative;
+	margin-top: -70px;
+	border: 5px solid #ededed ;
+}
+
+.top h1{
+	text-align: center;
+}
+
+.fondo .linea { 
+	width: 95%;
+	height: 5px;
+	background-color: #ededed;
+	margin-left: 25px;
+}
+
+.row{
+	clear: both;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
+.col-md-7, .col-md-8, .col-md-9, .col-md-10{
+float: left;
+} 
+
+.col-md-1{
+	width: 10%
+} 
+.col-md-2{
+	width: 20%
+} 
+.col-md-3{
+	width: 30%
+} 
+.col-md-4{
+	width: 40%
+} 
+.col-md-5{
+	width: 50%
+} 
+.col-md-6{
+	width: 60%
+} 
+
+.col-md-offset-6{
+	margin-left: 30px;
+}
+
+.col-md-7{
+	width: 70%
+} 
+.col-md-8{
+	width: 80%
+} 
+.col-md-9{
+	width: 90%
+} 
+.col-md-10{
+	width: 100%
+} 
+
+.medio{
+	height: 850px;
+}
+
+.medio article, .medio aside {
+	padding: 20px;
+}
+
+.rowfondo1, .rowfondo2, .rowfondo3, .rowfondo4 {
+	position: relative;
+}
+
+.rowfondo1{
+margin-top: 50px;
+}
+
+.rowfondo2, .rowfondo3, .rowfondo4{
+margin-top: 40px;
+}
+
+.rowfondo1 .fondo1, .rowfondo2 .fondo2  { 
+	height: 100px;
+	background-color: #ededed;
+	width: 90%;
+	margin-left: 50px;
+	margin-top: -30px; 
+}
+
+.rowfondo3 .fondo3, .rowfondo4 .fondo4{
+	height: 150px;
+	width: 83%;
+	margin-left: 100px;
+	margin-top: -30px; 
+}
+  
+.rowfondo1 #fecha, .rowfondo2 #fecha2, .rowfondo3 .fecha3, .rowfondo4 .fecha4{
+	position: absolute;
+	margin-top: 5px;
+}
+
+.rowfondo3 .fecha3, .rowfondo4 .fecha4{
+	margin-top: -7px;
+}
+
+.fecha3 #fechbajo, .fecha4 #fechbajo4 {
+	margin-top: -10px;
+	color:#cdcbcb;
+}
+
+.fondo1 p, .fondo2 p, .fondo3 p, .fondo4 p{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.fondo1 #lorem, .fondo2 #lorem2, .fondo3 #lorem3, .fondo4 #lorem4{
+	margin-top: -25px;
+}
+
+.titulo{ 
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.python, .html, .css, .js, .php {
+	background-color: red; 
+	height: 35px;
+	margin-top: -10px;
+}
+
+.python {
+	margin-top: 16px;
+}
+
+.html{ 
+	width: 85%;
+}
+
+.css{
+	width: 70%;
+}
+
+.js{
+	width: 50%;
+}
+
+.php{
+	width: 30%;
+
+}
+
+
+.python p, .html p, .css p, .js p, .php p {
+	color: white;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 10px;
+
+}
+
+.rowidio, .rowidio2, .medio  {
+border-bottom: 2px solid #ededed ;
+}
+
+.rowidio{
+margin-top: -10px;
+}
+
+.rowidio2{
+	clear: both; 	 
+}
+
+.rowidio p, .rowidio2 p  {
+float:left;
+}
+
+.rowidio2 p{
+	margin-top:-3px;
+}
+
+.rowidio img{
+	padding-left: 200px;
+	 
+}
+
+.rowidio2 img{
+	margin-top: -5px; 
+	padding-left: 190px; 
+}
+
+.hobbies button{
+	background-color: #ae5064;
+	border-radius: 0%
+	height: 35px;
+	font-size: 14px;	 
+}
+
+.hobbies button a{
+	color: white;
+	text-decoration: none; 
+}
+
+.footer p{
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 10px;
+
+}
+
+ 
